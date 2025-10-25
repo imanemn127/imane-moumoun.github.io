@@ -1,4 +1,4 @@
-# 👩‍💻 Imane MOUMOUN
+# Imane MOUMOUN
 📍 879 Route de Mimet, 13120 Gardanne, France  
 📞 (+33) 06.05.67.51.37  
 📧 [imane.moumoun@etu.emse.fr](mailto:imane.moumoun@etu.emse.fr)  
@@ -6,12 +6,12 @@
 
 ---
 
-### 🎯 Profil
+### Profil
 Engineering student passionate about **embedded systems** and **artificial intelligence**, seeking a **4- to 5-month internship starting in April 2026** to apply my technical skills and contribute to innovative projects.
 
 ---
 
-## 🎓 Education
+## Education
 **Mines Saint-Étienne**, Gardanne, France  
 *Master’s Degree in Microelectronics & Computer Science*  
 📅 Since September 2024  
@@ -22,7 +22,7 @@ Engineering student passionate about **embedded systems** and **artificial intel
 
 ---
 
-## 💡 Projects
+## Projects
 
 **Programming a Line-Following Robot with STM32 Microcontroller**  
 📅 April 2025 – June 2025  
@@ -49,7 +49,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 ---
 
-## 🧰 Professional Experience
+## Professional Experience
 
 **AI Intern – PELLENC**, Pertuis, France  
 📅 January 2025 – February 2025  
@@ -58,7 +58,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 ---
 
-## 🌍 Extracurricular Activities
+## Extracurricular Activities
 
 **Head of IT Service – Forum Entreprise ISMIN (FEI)**  
 📅 Since February 2025  
@@ -73,7 +73,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 ---
 
-## ⚙️ Technical Skills
+## Technical Skills
 **Programming:** C, C++, Python, PyTorch  
 **Embedded Systems:** STM32, SystemVerilog, KiCad, STM32CubeIDE  
 **Tools:** Roboflow, Git, Docker, ModelSim, PartQuest, COMSOL  
@@ -82,7 +82,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 ---
 
-## 🗣️ Languages
+## Languages
 - **English:** C1 – Advanced  
 - **French:** Advanced  
 - **German:** A1 – Beginner  
