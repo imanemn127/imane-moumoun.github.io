@@ -6,7 +6,7 @@
 
 ---
 
-### Profil
+## Profil
 Engineering student passionate about **embedded systems** and **artificial intelligence**, seeking a **4- to 5-month internship starting in April 2026** to apply my technical skills and contribute to innovative projects.
 
 ---
