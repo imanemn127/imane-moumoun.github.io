@@ -27,7 +27,7 @@ They highlight my skills in embedded systems, signal processing, prototyping and
 - **Description:** Developed a multithreaded client-server application in C with simultaneous connection handling via sockets, real-time messaging (private and public), and an interactive voting system.
 - **Technical Aspects:** C programming, TCP sockets, multithreading with POSIX threads, and network synchronization on Linux. 
 
-## Development of an AI Model 
+## Development of an AI Model (TIPE-CPGE)
 
 - **Period:** 2022–2024, *Preparatory Classes (MPSI–MP)*  
 - **Description:** Developed an AI model to detect and track a tennis ball using YOLOv5 and TrackNet models.  
