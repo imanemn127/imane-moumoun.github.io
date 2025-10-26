@@ -75,7 +75,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 ## Technical Skills
 **Programming:** C, C++, Python, PyTorch  
-**Embedded Systems:** STM32, SystemVerilog, KiCad, STM32CubeIDE  
+**Embedded Systems:** STM32, SystemVerilog, KiCad  
 **Tools:** Roboflow, Git, Docker, ModelSim, PartQuest, COMSOL  
 **Databases:** PostgreSQL  
 **Operating Systems:** Linux, Windows
