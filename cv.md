@@ -2,7 +2,7 @@
 📍 879 Route de Mimet, 13120 Gardanne, France  
 📞 (+33) 06.05.67.51.37  
 📧 [imane.moumoun@etu.emse.fr](mailto:imane.moumoun@etu.emse.fr)  
-🔗 [GitHub: imane-moumoun](https://github.com/imane-moumoun)
+🔗 [Linkedin: imane-moumoun](https://www.linkedin.com/in/imane-moumoun/)
 
 
 
