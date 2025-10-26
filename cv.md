@@ -4,12 +4,12 @@
 📧 [imane.moumoun@etu.emse.fr](mailto:imane.moumoun@etu.emse.fr)  
 🔗 [GitHub: imane-moumoun](https://github.com/imane-moumoun)
 
----
+
 
 ## Profil
 Engineering student passionate about **embedded systems** and **artificial intelligence**, seeking a **4- to 5-month internship starting in April 2026** to apply my technical skills and contribute to innovative projects.
 
----
+
 
 ## Education
 **Mines Saint-Étienne**, Gardanne, France  
@@ -20,7 +20,7 @@ Engineering student passionate about **embedded systems** and **artificial intel
 *Preparatory Classes for French “Grandes Écoles” – MPSI/MP (Mathematics, Physics & Computer Science)*  
 📅 2022 – 2024
 
----
+
 
 ## Projects
 
@@ -47,7 +47,7 @@ Implemented ASCON-128 encryption in SystemVerilog to secure user communications.
 📅 2022 – 2024  
 Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv5 and TrackNet.
 
----
+
 
 ## Professional Experience
 
@@ -56,7 +56,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 - Collected and annotated a specialized dataset for olive tree trunk detection.  
 - Fine-tuned the YOLOv8 model and optimized hyperparameters to enhance performance.
 
----
+
 
 ## Extracurricular Activities
 
@@ -71,7 +71,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 
 🏆 **Two-time Best Speaker Award Winner** – *Public Speaking Contest* (2019–2020)
 
----
+
 
 ## Technical Skills
 **Programming:** C, C++, Python, PyTorch  
@@ -80,7 +80,7 @@ Detected and tracked a tennis ball using deep learning through fine-tuning YOLOv
 **Databases:** PostgreSQL  
 **Operating Systems:** Linux, Windows
 
----
+
 
 ## Languages
 - **English:** C1 – Advanced  
