@@ -47,7 +47,7 @@ They highlight my skills in embedded systems, machine learning, computer vision,
 **Technical Aspects:** Python, PyTorch, YOLOv8, dataset annotation, Roboflow, model fine-tuning, performance optimization.
 
 ## Core Skills
-**Programming:** C, C++, Python, PyTorch, SystemVerilog
-**Tools:** STM32CubeIDE, KiCad, ModelSim, Roboflow, Git, Linux, Docker
-**Domains:** Embedded Systems, Signal Processing, Digital Design, Machine Learning, Computer Vision
+-**Programming:** C, C++, Python, PyTorch, SystemVerilog
+-**Tools:** STM32CubeIDE, KiCad, ModelSim, Roboflow, Git, Linux, Docker
+-**Domains:** Embedded Systems, Signal Processing, Digital Design, Machine Learning, Computer Vision
 
