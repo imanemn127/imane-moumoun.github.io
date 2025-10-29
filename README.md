@@ -15,7 +15,7 @@ They highlight my skills in embedded systems, machine learning, computer vision,
 **Period:** April–June 2025 | Prototyping Project Course
 - Developed a signal conditioning circuit converting capacitance into a measurable frequency.
 - Integrated Bluetooth communication for calibration, monitoring, and alerts.
-- Designed and fabricated the PCB using KiCad.
+- Designed and fabricated the PCB using KiCad.-
 **Technical Aspects:** Capacitive sensing, analog signal conditioning, PCB prototyping with KiCad and Bluetooth communication.  
 
 ## SystemVerilog Modeling of the ASCON Encryption Algorithm
