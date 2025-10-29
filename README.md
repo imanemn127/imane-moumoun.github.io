@@ -54,7 +54,7 @@ They highlight my skills in embedded systems, machine learning, computer vision,
 
 - Collected and annotated a specialized dataset for olive tree trunk detection.
 - Fine-tuned YOLOv8 models and optimized hyperparameters for better detection accuracy.
-- Evaluated and benchmarked model performance on real-world datasets.
+- Evaluated and benchmarked model performance on field dataset.
 
 **Technical Aspects:** Python, PyTorch, YOLOv8, dataset annotation, Roboflow, model fine-tuning, performance optimization.
 
