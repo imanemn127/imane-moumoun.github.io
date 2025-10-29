@@ -10,7 +10,8 @@ They highlight my skills in embedded systems, machine learning, computer vision,
 - Designed and implemented a real-time line-following algorithm using IR sensors.
 - Integrated PID motor control for smooth and stable motion.
 - Configured UART/Bluetooth communication for data exchange and remote monitoring.
-- **Technical Aspects:** STM32 microcontroller (C language), PWM motor control, and UART/Bluetooth communication for remote monitoring.
+  
+**Technical Aspects:** STM32 microcontroller (C language), PWM motor control, and UART/Bluetooth communication for remote monitoring.
   
 ## Designed a liquid level measurement system using a capacitive sensor
 **Period:** April–June 2025 | Prototyping Project   
@@ -45,7 +46,7 @@ They highlight my skills in embedded systems, machine learning, computer vision,
 - Developed an AI model to detect and track tennis balls using YOLOv5 and TrackNet.
 - Annotated datasets with Roboflow and fine-tunedmodels for improved accuracy.
 - Analyzed trajectories for “in/out” decision validation.
-- 
+  
 **Technical Aspects:** Python, PyTorch, YOLOv5, TrackNet, computer vision, deep learning, Roboflow.
 
 ## Internship – PELLENC (Pertuis, France)
