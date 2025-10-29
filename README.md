@@ -5,38 +5,49 @@ They highlight my skills in embedded systems, signal processing, prototyping and
 
 ## Programming a line-following robot with STM32 microcontroller
 
-- **Completed:** April–June 2025, *Robot Project Course* at Mines Saint-Étienne  
-- **Description:** Developed a line-following algorithm with real-time decision-making using IR sensors, implemented PID control of motors for stable trajectory, and configured UART/Bluetooth interfaces for travel time reception.  
+- **Period:** April–June 2025 | Robot Project Course, Mines Saint-Étienne
+- Designed and implemented a real-time line-following algorithm using IR sensors.
+- Integrated PID motor control for smooth and stable motion.
+- Configured UART/Bluetooth communication for data exchange and remote monitoring.
 - **Technical Aspects:** STM32 microcontroller (C language), PWM motor control, and UART/Bluetooth communication for remote monitoring.
   
 ## Designed a liquid level measurement system using a capacitive sensor
-
-- **Completed:** April–June 2025, *Prototyping Project Course*  
-- **Description:** Designed a signal conditioning circuit converting capacitance into a frequency readable by an STM32, with integrated Bluetooth interface for calibration, liquid level monitoring, and critical level alerts.
+- **Period:** April–June 2025 | Prototyping Project Course
+- Developed a signal conditioning circuit converting capacitance into a measurable frequency.
+- Integrated Bluetooth communication for calibration, monitoring, and alerts.
+- Designed and fabricated the PCB using KiCad.
 - **Technical Aspects:** Capacitive sensing, analog signal conditioning, PCB prototyping with KiCad and Bluetooth communication.  
 
 ## SystemVerilog Modeling of the ASCON Encryption Algorithm
-
-- **Completed:** April–May 2025, *Digital System Design Course* 
-- **Description:** Implemented the ASCON-128 encryption algorithm in SystemVerilog to secure user communications by encrypting messages. 
-- **Technical Aspects:** RTL module design, testbench verification, and simulation using ModelSim.  
-
+- **Period:** April–May 2025 | Digital System Design Course
+- Implemented the ASCON-128 encryption algorithm for secure message transmission.
+- Built and verified RTL modules with SystemVerilog testbenches.
+- Conducted simulations using ModelSim. 
+- **Technical Aspects:** SystemVerilog, RTL design, testbench verification, ModelSim.
+  
 ## Developed a client-server application tailored for social networking functionality
-
-- **Period:** April–May 2025, *system programming Course* 
-- **Description:** Developed a multithreaded client-server application in C with simultaneous connection handling via sockets, real-time messaging (private and public), and an interactive voting system.
-- **Technical Aspects:** C programming, TCP sockets, multithreading with POSIX threads, and network synchronization on Linux. 
+- **Period:** April–May 2025 | System Programming Course
+- Developed a social networking platform supporting real-time messaging and voting features.
+- Implemented multithreading for simultaneous client handling using POSIX threads.
+- Designed efficient TCP socket communication for stable network synchronization.
+- **Technical Aspects:** C, TCP/IP sockets, POSIX threads, Linux.
 
 ## Development of an AI Model (TIPE-CPGE)
-
-- **Period:** 2022–2024, *Preparatory Classes (MPSI–MP)*  
-- **Description:** Developed an AI model to detect and track a tennis ball using YOLOv5 and TrackNet models.  
-- **Technical Aspects:** Dataset annotation with Roboflow, model fine-tuning, and trajectory tracking for “in/out” decision validation.  
+- **Period:** 2022–2024 | Preparatory Classes (MPSI–MP)
+- Developed an AI model to detect and track tennis balls using YOLOv5 and TrackNet.
+- Annotated datasets with Roboflow and fine-tuned models for improved accuracy.
+- Analyzed trajectories for “in/out” decision validation.
+- **Technical Aspects:** Python, PyTorch, YOLOv5, TrackNet, computer vision, deep learning, Roboflow.
 
 ## Internship – PELLENC (Pertuis, France)
+- **Duration:** January–February 2025 | AI Intern
+- Collected and annotated a specialized dataset for olive tree trunk detection.
+- Fine-tuned YOLOv8 models and optimized hyperparameters for better detection accuracy.
+- Evaluated and benchmarked model performance on real-world datasets.
+- **Technical Aspects:** Python, PyTorch, YOLOv8, dataset annotation, Roboflow, model fine-tuning, performance optimization.
 
-- **Duration:** January–February 2025  
-- **Role:** AI Intern  
-- **Description:** Collected and annotated a specialized dataset for olive tree trunk detection, fine-tuned the YOLOv8 model, and optimized hyperparameters to enhance model performance. 
-- **Technical Aspects:** Model fine-tuning , hyperparameter optimization and model evaluation.  
+## Core Skills
+- **Programming:** C, C++, Python, PyTorch, SystemVerilog
+- **Tools:** STM32CubeIDE, KiCad, ModelSim, Roboflow, Git, Linux, Docker
+- **Domains:** Embedded Systems, Signal Processing, Digital Design, Machine Learning, Computer Vision
 
