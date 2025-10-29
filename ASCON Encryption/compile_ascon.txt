@@ -1,0 +1,65 @@
+# Remove existing librairies and their content
+vdel -lib LIB_RTL -all
+vdel -lib LIB_BENCH -all
+
+# Build new librairies with vlib and vmap
+vlib LIB/LIB_RTL
+vmap LIB_RTL LIB/LIB_RTL
+vlib LIB/LIB_BENCH
+vmap LIB_BENCH LIB/LIB_BENCH
+
+# Define compilation options for all files
+VLOG_OPTS="-sv +acc -svinputport=net"
+
+# Compile all RTL sources with vlog
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/ascon_pack.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/constante_add.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/sbox.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/substitution.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/diffusion.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/mux_state.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/reg_state.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/permutation_simple.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/xor_end.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/permutation_xor_end.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/xor_begin.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/permutation_xor.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/register_w_en.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/permutation_xor_reg.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/compteur_simple.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/compteur_double.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/fsm_moore_init.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/fsm_moore.sv
+vlog $VLOG_OPTS -work LIB_RTL ./SRC/RTL/ascon_top.sv
+
+# Compile all BENCH sources with vlog
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/constante_add_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/sbox_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/substitution_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/diffusion_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/permutation_simple_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/xor_end_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/permutation_xor_end_tb.sv
+vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/xor_begin_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/permutation_xor_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/permutation_xor_reg_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/fsm_moore_init_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/fsm_moore_tb.sv
+#vlog $VLOG_OPTS -work LIB_BENCH -L LIB_RTL SRC/BENCH/ascon_top_tb.sv
+
+# Simulation
+# /!\ Uncomment only one vsim command below
+#vsim -L LIB_RTL LIB_BENCH.constante_add_tb
+#vsim -L LIB_RTL LIB_BENCH.sbox_tb
+#vsim -L LIB_RTL LIB_BENCH.substitution_tb
+#vsim -L LIB_RTL LIB_BENCH.diffusion_tb
+#vsim -L LIB_RTL LIB_BENCH.permutation_simple_tb
+#vsim -L LIB_RTL LIB_BENCH.xor_end_tb
+vsim -L LIB_RTL LIB_BENCH.xor_begin_tb
+#vsim -L LIB_RTL LIB_BENCH.permutation_xor_end_tb
+#vsim -L LIB_RTL LIB_BENCH.permutation_xor_reg_tb
+#vsim -L LIB_RTL LIB_BENCH.permutation_xor_tb
+#vsim -L LIB_RTL LIB_BENCH.permutation_xor_reg_tb
+#vsim -L LIB_RTL LIB_BENCH.fsm_moore_init_tb
+#vsim -L LIB_RTL LIB_BENCH.fsm_moore_tb
+#vsim -L LIB_RTL LIB_BENCH.ascon_top_tb

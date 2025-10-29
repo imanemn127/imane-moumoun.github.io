@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/imane.moumoun/Ascon
+T_opt
+!s110 1747171061
+V]2e2RV032LoNzhPJMZcoN0
+04 18 4 work permutation_xor_tb fast 0
+=1-bc97e1a36448-6823b6f5-b9edf-13a53
+Z1 o-quiet -auto_acc_if_foreign -work LIB_BENCH -L LIB_RTL
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1747172823
+VfdZPnZzhLLe<CWBHEhTQ02
+04 12 4 work xor_begin_tb fast 0
+=1-bc97e1a36448-6823bdd7-f34b-1ff8d
+R1
+R2
+n@_opt1
+R3
+vxor_begin_tb
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 DXx7 LIB_RTL 10 ascon_pack 0 22 7>3eA>bi>:=Go@XImK3XF0
+DXx4 work 20 xor_begin_tb_sv_unit 0 22 SQ^zIDFNG8nd^NjU]HE`i3
+Z6 !s110 1747172803
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 a[]Qe`G7ee7bNb^7BV;;H3
+I@7=F3iN6nWb8Ld:V>Z^NG1
+!s105 xor_begin_tb_sv_unit
+S1
+R0
+Z7 w1747172766
+Z8 8SRC/BENCH/xor_begin_tb.sv
+Z9 FSRC/BENCH/xor_begin_tb.sv
+!i122 0
+L0 8 58
+Z10 OL;L;2020.4;71
+31
+Z11 !s108 1747172802.000000
+Z12 !s107 SRC/BENCH/xor_begin_tb.sv|
+Z13 !s90 -sv|+acc|-svinputport=net|-work|LIB_BENCH|-L|LIB_RTL|SRC/BENCH/xor_begin_tb.sv|
+!i113 0
+Z14 o-sv +acc -svinputport=net -work LIB_BENCH -L LIB_RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xxor_begin_tb_sv_unit
+R4
+R5
+R6
+VSQ^zIDFNG8nd^NjU]HE`i3
+r1
+!s85 0
+!i10b 1
+!s100 2d^nl[ZdW:oMz<A0ReiIO1
+ISQ^zIDFNG8nd^NjU]HE`i3
+!i103 1
+S1
+R0
+R7
+R8
+R9
+!i122 0
+L0 6 0
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2

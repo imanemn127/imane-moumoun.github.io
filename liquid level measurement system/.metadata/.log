@@ -1,0 +1,478 @@
+!SESSION 2025-06-12 17:43:17.691 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-12 17:44:43.964
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-12 17:44:43.969
+!MESSAGE Log4j2 initialized with config file D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2025-06-12 17:44:45.981
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.swt".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:434)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:312)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:448)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:146)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-06-12 17:44:45.989
+!MESSAGE Exception occurred while rendering: com.st.stm32cube.common.mx.toolbar=org.eclipse.e4.ui.model.application.ui.menu.impl.ToolBarImpl@23dc70c1 (tags: [Draggable], contributorURI: null) (widget: ImageBasedFrame {} [layout=null], renderer: org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer@52b891de, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null)
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:544)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer.createWidget(ToolBarManagerRenderer.java:434)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeChildrenHandler(PartRenderingEngine.java:312)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:208)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.emf.ecore.util.EcoreEList.dispatchNotification(EcoreEList.java:249)
+	at org.eclipse.emf.common.notify.impl.NotifyingListImpl.addUnique(NotifyingListImpl.java:356)
+	at org.eclipse.emf.common.util.AbstractEList.add(AbstractEList.java:340)
+	at org.eclipse.e4.ui.internal.workbench.ContributionsAnalyzer.processAddition(ContributionsAnalyzer.java:448)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.addTrimContributions(TrimBarRenderer.java:146)
+	at org.eclipse.e4.ui.workbench.renderers.swt.TrimBarRenderer.processContents(TrimBarRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:544)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:528)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:680)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-12 17:44:53.225
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-12 17:56:13.447 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-12 17:56:52.579
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-12 17:56:52.583
+!MESSAGE Log4j2 initialized with config file D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-12 17:57:04.139
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-06-12 17:58:03.591
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-06-12 17:58:03.596
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-06-12 17:58:03.596
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-12 17:58:18.771
+!MESSAGE Indexed 'workspace' (25 sources, 120 headers) in 18.9 sec: 11,896 declarations; 69,878 references; 2 unresolved inclusions; 49 syntax errors; 188 unresolved names (0.23%)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-12 18:03:15.179
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-12 18:03:15.179
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-12 18:03:15.180
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-12 18:03:15.183
+!MESSAGE Project is null
+!SESSION 2025-06-12 21:53:38.495 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-06-12 21:54:05.869
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-12 21:55:13.259
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-12 21:55:13.264
+!MESSAGE Log4j2 initialized with config file D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-06-12 21:55:32.791
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-06-12 21:55:32.798
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-06-12 21:55:32.798
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-12 21:55:35.530
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-12 21:54:48.428 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-13 11:14:41.951
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-13 11:14:41.955
+!MESSAGE Log4j2 initialized with config file D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-13 11:15:06.460
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 11:41:10.801
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 11:41:10.801
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 11:41:10.801
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 11:41:10.803
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 11:41:56.721
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 11:41:56.721
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 11:41:56.721
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 11:41:56.723
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 11:41:57.344
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 11:41:57.346
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 11:41:57.346
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 11:41:57.347
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-06-13 11:44:44.780
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-06-13 11:45:48.020
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 11:49:08.406
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 11:49:08.406
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 11:49:08.406
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 11:49:08.408
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 11:49:09.290
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 11:49:09.290
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 11:49:09.290
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 11:49:09.293
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-06-13 18:38:48.044
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-06-13 18:38:48.053
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-06-13 18:38:48.054
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 19:06:15.231
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 19:06:15.232
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 19:06:15.233
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 19:06:15.235
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 19:12:50.097
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 19:12:50.098
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 19:12:50.098
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 19:12:50.100
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 19:12:53.762
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 19:12:53.762
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 19:12:53.762
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 19:12:53.764
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-06-13 19:12:54.297
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-06-13 19:12:54.297
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-06-13 19:12:54.297
+!MESSAGE D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\workspace overlaps the location of another project: 'workspace'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-06-13 19:12:54.300
+!MESSAGE Project is null
+!SESSION 2025-06-14 08:47:39.435 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/ISMIN/1A/S6/Conception_système_elec/Prototypage/Projet/prototypage_STM32/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-14 08:49:04.819
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-14 08:49:04.824
+!MESSAGE Log4j2 initialized with config file D:\ISMIN\1A\S6\Conception_système_elec\Prototypage\Projet\prototypage_STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-14 08:49:34.704
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-06-14 08:49:48.527
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-06-14 08:49:48.532
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-06-14 08:49:48.532
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-06-14 08:49:56.803
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39
