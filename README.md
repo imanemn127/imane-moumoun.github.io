@@ -1,7 +1,7 @@
 # Portfolio – Imane Moumoun
 
 This portfolio showcases a selection of my academic projects completed during my engineering studies at **Mines Saint-Étienne (ISMIN)**.  
-They highlight my skills in embedded systems, signal processing, prototyping and machine learning, combining both theoretical knowledge and hands-on implementation.
+They highlight my skills in embedded systems, machine learning, signal processing, prototyping and digital design, combining both theoretical knowledge and hands-on implementation.
 
 ## Programming a line-following robot with STM32 microcontroller
 
